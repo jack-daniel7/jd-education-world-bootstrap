@@ -1,0 +1,9 @@
+:root{
+    /* --text-oda-color: green ; */
+    --mainaanapadding: 2px;
+}
+
+.Welcome{
+    color: var(--text-oda-color,blue);
+}
+

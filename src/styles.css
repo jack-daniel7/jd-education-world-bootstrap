@@ -1,0 +1,48 @@
+/* xs  size */
+body {
+    font-family: "montserrat", sans-serif !important;
+    
+}
+
+.banner>img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* sm size  */
+
+@media screen and (min-width:576px) {
+    .banner>img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/* md size  */
+
+@media screen and (min-width:768px) {
+
+    .banner>img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/* lg size  */
+
+@media screen and (min-width:992px) {
+
+    .banner>img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}

@@ -5,10 +5,20 @@ body {
 }
 
 .banner>img {
-    height: 250px;
+    height: 190px;
     width: 100%;
     object-fit: cover;
 }
+
+h1{
+    font-size: 23px !important;
+}
+
+
+p{
+    font-size: 15px !important;
+}
+
 
 
 
@@ -20,7 +30,15 @@ body {
         width: 100%;
         object-fit: cover;
     }
-
+    h1{
+        font-size: 32px !important;
+    }
+    
+    
+    p{
+        font-size:25px !important;
+    }
+   
 }
 
 /* md size  */
@@ -31,6 +49,15 @@ body {
         height: 400px;
         width: 100%;
         object-fit: cover;
+    }
+
+    h1{
+        font-size: 36px !important;
+    }
+    
+    
+    p{
+        font-size:25px !important;
     }
 
 }
